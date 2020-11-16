@@ -21,7 +21,7 @@ st.title("Homemade Invoice Generator")
 
 
 user_name = st.sidebar.text_input("Please enter database user name")
-password = st.sidebar.text_input("Please enter database passsword")
+password = st.sidebar.text_input("Please enter database passsword", type="password")
 today = datetime.date.today()
 tomorrow = today + datetime.timedelta(days=1)
 start_date = st.sidebar.date_input('Start date', today)
@@ -37,7 +37,7 @@ else:
 
 disp_id = st.text_input("Please enter dispatcher client id")
 parasut_login = st.sidebar.text_input("Please enter Paraşüt username")
-parasut_pass = st.sidebar.text_input("Please enter Paraşüt password")
+parasut_pass = st.sidebar.text_input("Please enter Paraşüt password", type="password")
 parasaut_client_id = st.sidebar.text_input("Please enter Paraşüt client id")
 
 
