@@ -53,7 +53,7 @@ today = today.strftime("%Y%m%d")
 
 
 mydb = mysql.connector.connect(
-  host="127.0.0.1",
+  host="http://analytics.dostavista.net",
   port="3306",
   user=user_name,
   password=password,
