@@ -187,8 +187,8 @@ for row in myresult:
             "district": "",
             "is_abroad": "",
             "order_no": "",
-            "order_date": "2020-11-06",
-            "shipment_addres": "fatih, istanbul",
+            "order_date": today,
+            "shipment_addres": "",
             },
             "relationships": {
             "details": {
