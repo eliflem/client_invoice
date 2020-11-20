@@ -14,7 +14,7 @@ import datetime
 # In[2]:
 
 
-st.title("Homemade Invoice Generator - Balance Clients")
+st.title("Homemade Invoice Generator - Individual")
 
 
 # In[3]:
