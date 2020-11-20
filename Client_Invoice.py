@@ -14,7 +14,7 @@ import datetime
 # In[2]:
 
 
-st.title("Homemade Invoice Generator")
+st.title("Homemade Invoice Generator - Balance Clients")
 
 
 # In[3]:
@@ -38,7 +38,7 @@ else:
 disp_id = st.text_input("Please enter dispatcher client id")
 parasut_login = st.sidebar.text_input("Please enter Paraşüt username")
 parasut_pass = st.sidebar.text_input("Please enter Paraşüt password", type="password")
-parasaut_client_id = st.sidebar.text_input("Please enter Paraşüt client id")
+parasaut_client_id = st.sidebar.text_input("Please enter Paraşüt client id", type="password")
 
 
 # In[ ]:
