@@ -73,7 +73,7 @@ headers = {'Authorization': 'Bearer ' + token, 'Content-Type': 'application/json
 
 
 # In[ ]:
-tool_mode = st.selectbox("Select tool", ["Please select from the list", "Individual Invoice", "Bulk Invoice")
+tool_mode = st.selectbox("Select tool", ["Please select from the list", "Individual Invoice", "Bulk Invoice"])
                                          
 if tool_mode == "Individual Invoice":
     st.write("This tool creates a single invoice for the given client based on the completed orders between selected dates")
